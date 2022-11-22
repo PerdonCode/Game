@@ -72,9 +72,9 @@ public class Player implements  ISaveable {
     public String toString() {
         return "Player{" +
                 "name='" + name + '\'' +
-                ", weapon='" + weapon + '\'' +
-                ", hitpoints=" + hitpoints +
+                ", hitPoints=" + hitpoints +
                 ", strength=" + strength +
+                ", weapon='" + weapon + '\'' +
                 '}';
     }
 }
