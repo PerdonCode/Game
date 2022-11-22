@@ -36,6 +36,38 @@ public class Player implements  ISaveable {
         }
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
+    }
+
+    public int getHitpoints() {
+        return hitpoints;
+    }
+
+    public void setHitpoints(int hitpoints) {
+        this.hitpoints = hitpoints;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
     @Override
     public String toString() {
         return "Player{" +
